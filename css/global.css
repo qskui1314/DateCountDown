@@ -1,0 +1,23 @@
+/* 整体布局 */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: "Arial";
+  font-size: 600px;
+  font-weight:bold;
+  color:#ff0300;
+
+  text-shadow: #a54508 0 0 0.1em;
+}
+
+img{
+  z-index:-1;
+}
