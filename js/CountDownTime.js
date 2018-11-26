@@ -14,10 +14,10 @@ function getTimes() {
   // 如果获取的毫秒数>0
   if (t > 0) {
     // 获取相对应的天时分秒
-    d = Math.floor(t / 1000 / 60 / 60 / 24);
-    h = Math.floor(t / 1000 / 60 / 60 % 24);
-    m = Math.floor(t / 1000 / 60 % 60);
-    s = Math.floor(t / 1000 % 60);
+    d = Math.floor(t / 1000 / 60 / 60 / 24);//day
+    h = Math.floor(t / 1000 / 60 / 60 % 24);//hour
+    m = Math.floor(t / 1000 / 60 % 60);//minute
+    s = Math.floor(t / 1000 % 60);//second
   };
   // 写入到页面中
   $('cc').innerHTML = (d);
